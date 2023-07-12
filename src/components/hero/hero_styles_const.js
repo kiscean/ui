@@ -1,14 +1,14 @@
 import {Box, styled} from "@mui/material";
 
-const StyleCard = styled(Box)({
+const StyledCard = styled(Box)({
     display: 'flex',
     justifyContent: "center",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover",
-    height: 200,
+    height: 400,
 });
 
 export {
-    StyleCard,
+    StyledCard,
 } ;
