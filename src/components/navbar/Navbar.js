@@ -107,7 +107,7 @@ const Navbar = () => {
                         <Box sx={{
                              background: red[500],
                              }}
-                             height={"7ch"}
+                             height={"8ch"}
                              display={"flex"}
                              marginBottom={5}
                              borderBottom={"1px solid black"}
@@ -116,7 +116,7 @@ const Navbar = () => {
                             <Typography
                                 variant={"h6"}
                                 color={"white"}
-                                marginTop={1.5}
+                                marginTop={2}
                             >
                                 SITE MENU
                             </Typography>
