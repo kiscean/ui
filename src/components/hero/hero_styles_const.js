@@ -9,7 +9,6 @@ const StyledCard = styled(Box)(({theme})=>({
     backgroundSize: "cover",
     marginTop: 20,
     cursor: 'pointer',
-    borderRadius: 5,
     [theme.breakpoints.up("md")]:{
         height: 400,
     },
@@ -30,7 +29,16 @@ const StyledTypography = styled(Typography)(({theme})=>({
     background: red[400],
     fontSize: 18,
     textTransform: "uppercase",
-    height: "2.5ch"
+    height: "2.5ch",
+
+    [theme.breakpoints.up("md")]:{
+        borderTop: "3px solid white",
+        boxShadow: "0 2px 4px grey",
+    },
+    [theme.breakpoints.down("md")]:{
+        border: "none",
+        borderTop: "3px solid white",
+    },
 }));
 
 const StyledWrapper = styled(Box)(({theme})=>({

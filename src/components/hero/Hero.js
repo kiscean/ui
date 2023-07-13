@@ -8,10 +8,10 @@ import {
   StyledTypography,
   StyledWrapper
 } from "./hero_styles_const";
-import guitars from '../../static/guitars.png'
-import dress from '../../static/dress.jpg'
-import interior from '../../static/interior.jpg'
-import amp from '../../static/amplifer.jpg'
+import guitars from '../../static/guitars.png';
+import dress from '../../static/dress.jpg';
+import interior from '../../static/interior.jpg';
+import amp from '../../static/amplifer.jpg';
 
 const Hero = () => {
 
