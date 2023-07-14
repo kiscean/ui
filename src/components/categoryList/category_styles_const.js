@@ -21,12 +21,12 @@ const StyledCard = styled(Box)({
     },
 });
 
-const StyledTypography = styled(Typography)(({theme})=>({
+const StyledTypography = styled(Typography)({
     textAlign: 'center',
     color: "#f44336",
     fontSize: 15,
     height: "2.5ch",
-}));
+});
 
 const CardBox = styled(Box)({
     display: "flex",
