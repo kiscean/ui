@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import guitars from '../../static/guitars.png';
 
-const PostsCard = () => {
+const PostsCard = ({myDirection}) => {
     return (
         <Box
             mt={3}
@@ -25,7 +25,10 @@ const PostsCard = () => {
                 <Card>
                     <Box
                         sx={{
-                            display: 'flex',
+                            display: {
+                                xs: "block",
+                                md: `${myDirection}`,
+                            },
                             flexDirection: 'row',
                         }}
                     >
