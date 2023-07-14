@@ -22,8 +22,8 @@ const Main = () => {
                 </Box>
                 <Box
                     flex={1}
-                    sx={{
-                        sx: 'none',
+                    display={{
+                        xs: 'none',
                         md: 'block',
                     }}
                 >
