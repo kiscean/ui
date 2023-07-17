@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    Box,
+    Box, Pagination, Stack,
     Typography
 } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
@@ -71,6 +71,15 @@ const Posts = () => {
                     <PostsCard myDirection={'block'}/>
                 </Grid>
             </Grid>
+            <Stack
+                spacing={2}
+                mt={3}
+                mb={3}
+                justifyContent={"center"}
+                alignItems={"center"}
+            >
+                <Pagination count={10} color="primary"/>
+            </Stack>
         </Box>
     );
 };

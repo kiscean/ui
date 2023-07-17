@@ -6,9 +6,14 @@ import {
 } from "@mui/material";
 import Posts from "../posts/Posts";
 import Rightbar from "../rightbar/Rightbar";
+import Hero from "../hero/Hero";
+import Category from "../categoryList/Category";
 
 const Main = () => {
     return (
+        <>
+        <Hero />
+        <Category />
         <Container>
             <Stack
                 direction={'row'}
@@ -31,6 +36,7 @@ const Main = () => {
                 </Box>
             </Stack>
         </Container>
+        </>
     );
 };
 
